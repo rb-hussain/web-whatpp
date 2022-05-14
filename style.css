@@ -1,0 +1,129 @@
+            body {
+                background-color: #d6dadc !important;
+            }
+            
+            .bg-wa-success {
+                background-color: #30a985;
+            }
+            
+            .WhatsApp-header {
+                height: 95px;
+                align-items: center;
+            }
+            
+            .WhatsApp-header-2 {
+                height: 125px;
+            }
+            
+            .logo-title {
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 0.2px;
+                color: #ffff;
+                text-transform: uppercase;
+                vertical-align: middle;
+                margin-left: 14px;
+                display: inline-block;
+            }
+            
+            .flex {
+                display: flex;
+                align-items: center;
+            }
+            
+            .bg-gray {
+                background-color: #f9f9fa!important;
+            }
+            
+            .main-heading {
+                font-size: 28px;
+                font-weight: 300;
+                color: #41525d;
+                margin: 30px 0px;
+            }
+            
+            .oder-lst {
+                line-height: 3;
+            }
+            
+            .main {
+                background-color: #ffff;
+                margin: 0 auto;
+                margin-top: -140px;
+                border-radius: 5px;
+                box-shadow: 5px 10px 18px #888888;
+            }
+            
+            .set-thumb {
+                max-width: 482px;
+            }
+            
+            .set-qr {
+                max-width: 220px;
+                margin-top: 40px;
+                margin-bottom: 50px;
+                margin-right: 10px;
+            }
+            
+            .set-3dots {
+                margin-top: 6px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            
+            .setting-wheel {
+                margin-top: 6px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            
+            .need-class-para p {
+                color: #008069;
+                font-size: 14px;
+                margin-left: 26px;
+                margin-top: 50px;
+                margin-bottom: 80px;
+            }
+            /* Medium devices (tablets, 768px and up)*/
+            
+            @media (max-width: 785px) {
+                .set-qr {
+                    max-width: 200px;
+                    display: flex;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    margin-bottom: 40px;
+                }
+                .need-class-para p {
+                    margin-bottom: 30px;
+                }
+            }
+            /*Extra small devices (portrait phones, less than 576px)*/
+            
+            @media (max-width: 575.98px) {
+                .WhatsApp-header-2 {
+                    display: none;
+                }
+                .main {
+                    margin-top: 0px !important;
+                    border-radius: 0px;
+                    box-shadow: 0px 0px 0px #ffff;
+                }
+                .set-qr {
+                    max-width: 250px;
+                    display: flex;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                    margin-top: -10px;
+                }
+                .need-class-para p {
+                    margin-bottom: 50px;
+                }
+                .set-video {
+                    position: absolute;
+                    right: 20%;
+                }
+                .bg-gray {
+                    background-color: #ffff !important;
+                }
+            }
